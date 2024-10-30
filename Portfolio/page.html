@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,700;1,900&display=swap"
+      rel="stylesheet"
+    />
+    <!-- on changing font, the text is not aligned in the box -->
+    <title>Ketan - Portfolio</title>
+  </head>
+  <body>
+    <header>
+      <nav>
+        <div class="left">Portfolio Page</div>
+        <div class="right">
+          <ul>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#education">Education</a></li>
+            <li><a href="#achievements">Achievements</a></li>
+            <li><a href="#contact">Contact Me</a></li>
+          </ul>
+        </div>
+      </nav>
+    </header>
+    <main>
+      <section class="firstsection" id="home">
+        <div class="leftsection">
+          Hi, my name is <span class="purple">Ketan</span>
+          <div>
+            and I am a passionate about
+            <span id="element" class="purple"></span>
+            <!-- <div class="web">Web Developer</div> -->
+          </div>
+        </div>
+        <div class="rightsection">
+          <img src="dev bgf.png" alt="Developer" />
+        </div>
+      </section>
+      <hr />
+
+      <section class="secondsection" id="education">
+        <span class="gray">My Educational Background</span>
+        <h2>Education</h2>
+
+        <div class="box">
+          <div class="vertical">
+            <img class="image-top" src="10th.png" alt="10th" />
+            <div class="ver-post">Highschool</div>
+            <div class="year">2019-2020</div>
+            <div class="desc">
+              Completed my Metriculation from <b>Air Force School, Kanpur</b>
+            </div>
+          </div>
+          <div class="vertical">
+            <img class="image-top" src="CBSE 1.png" alt="12th" />
+            <div class="ver-post">Intermediate</div>
+            <div class="year">2021-2022</div>
+            <div class="desc">
+              Completed my Intermediate studies from
+              <b>Adarsh Vishya Mandir Senior Secondary School, Unnao</b>
+            </div>
+          </div>
+          <div class="vertical">
+            <img class="image-top" src="grad.png" alt="Graduation" />
+            <div class="ver-post">Graduation</div>
+            <div class="year">2023-2027</div>
+            <div class="desc">
+              Currently Pursuing Bachelors of Technology form
+              <b>PSIT (Pranveer Singh Institute of Technology), Kanpur</b>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="secondsection" id="achievements">
+        <span class="gray">What I have achieved so far </span>
+        <h2>Achievements & Certifications</h2>
+        <div class="box">
+          <div class="vertical">
+            <img class="image-top" src="python-logo.png" alt="html photo" />
+            <div class="ver-post">
+              Programming Fundamentals using Python - Part 1
+            </div>
+            <div class="desc">
+              'Programming Fundamentals using Python' <br />Certificate by
+              <b>Infosys Springboard</b><br />(Date: 30 Sep 2024)
+            </div>
+          </div>
+          <div class="vertical">
+            <img class="image-top" src="python-logo.png" alt="html photo" />
+            <div class="ver-post">Python Basic Certificate</div>
+            <div class="desc">
+              Python (Basic) <br />
+              Certificate by <b>Hackerrank</b><br />(Date: 06 Oct 2024)
+            </div>
+          </div>
+          <div class="vertical">
+            <img class="image-top" src="HTML.png" alt="html photo" />
+            <div class="ver-post">HTML, CSS & JavaScript</div>
+            <div class="desc">
+              Learned HTML, CSS and JavaScript from <b>Apna College</b> batch
+              <b>'Sigma 4.0'</b> <br />
+              Currently learning Backend and Node with SQL.
+            </div>
+          </div>
+          <div class="vertical">
+            <img class="image-top" src="Codsoft logo.png" alt="html photo" />
+            <div class="ver-post">Intern as Web Developer</div>
+            <div class="desc">
+              Currently working as a Web Developer Intern <b>@Codsoft</b>
+              <br />(Date: 01 Oct 2024)
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+    <footer>
+      <div class="footer" id="contact">
+        <div class="first"><b>Developer Portfolilo</b></div>
+        <div class="second">
+          <ul>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#achievements">Achievements & Certifications</a></li>
+            <li><a href="https://linktr.ee/K10Agarwal">Social Media</a></li>
+            <li><a href="mailto:ktntayal1@gmail.com">E-Mail</a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="rights">&#169; K10Agarwal | All rights reserved</div>
+    </footer>
+    <!-- typed js script for animation from internet-->
+    <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+    <script>
+      var typed = new Typed("#element", {
+        strings: [
+          "Web Designing",
+          "Graphic designing",
+          "Development",
+          "Learning",
+        ],
+        typeSpeed: 50,
+      });
+    </script>
+  </body>
+</html>

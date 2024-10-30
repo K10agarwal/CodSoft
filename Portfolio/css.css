@@ -1,0 +1,189 @@
+* {
+  font-family: "Poppins", sans-serif;
+  padding: 0;
+  margin: 0;
+  /* border: 1px solid black; */
+  line-height: 1.5;
+}
+
+body {
+  background-color: #f7fff7;
+  color: black;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  background-color: #333d29;
+  height: 80px;
+}
+
+nav ul {
+  display: flex;
+  justify-content: center;
+}
+
+nav ul li {
+  list-style: none;
+  margin: 0 23px;
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: white;
+  transition: color 0.3s ease;
+}
+
+nav ul li a:hover {
+  color: #f94144;
+  font-size: 1.01rem;
+}
+
+.left {
+  font-size: 1.3rem;
+  margin: 30px 0;
+  color: white;
+}
+
+.firstsection {
+  display: flex;
+  justify-content: space-around;
+  margin: 90px 0;
+  align-items: center;
+}
+
+.firstsection > div {
+  width: 30%;
+}
+
+.secondsection {
+  margin: auto;
+  max-width: 80%;
+  height: 80vh;
+  background-color: #f7fff7;
+}
+
+.secondsection hr {
+  height: 2px;
+  margin: 45px 110px;
+  border-top: 2px solid #8ac926;
+  position: relative;
+}
+
+.secondsection .box {
+  background-color: #8ac926;
+  height: 2px;
+  margin: 50px 0;
+  width: 80vw;
+  display: flex;
+}
+
+.secondsection .vertical {
+  height: 90px;
+  width: 1px;
+  background-color: #8ac926;
+  margin: 0 140px;
+}
+
+.secondsection .image-top {
+  width: 23px;
+  position: relative;
+  top: -40px;
+  left: -10px;
+  background-color: #f7fff7;
+  padding: 5px;
+  border-radius: 50%;
+}
+
+.ver-post {
+  position: relative;
+  top: 70px;
+  width: 150px;
+  color: #333d29;
+  font-weight: bold;
+}
+
+.desc {
+  position: relative;
+  top: 80px;
+  width: 140px;
+  font-size: 10px;
+  color: #808080;
+}
+
+.year {
+  position: relative;
+  top: 70px;
+  width: 150px;
+  color: #f94144;
+  font-weight: bold;
+}
+
+.leftsection {
+  font-size: 2rem;
+  margin: 70px 0;
+}
+
+.rightsection img {
+  width: 80%;
+  margin: 30px 27px;
+}
+
+footer {
+  background-color: #333d29;
+  color: white;
+  height: auto;
+  text-align: center;
+}
+
+.footer ul {
+  width: 100%;
+  display: flex;
+  margin: 0 auto;
+  padding: 0;
+  justify-content: space-evenly;
+  list-style: none;
+  text-align: center;
+}
+
+.footer li {
+  margin: 0 20px;
+}
+
+footer > div {
+  width: 100%;
+  align-items: center;
+}
+
+.second a {
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+
+.second a:hover {
+  color: #f94144;
+  font-size: 1.01rem;
+}
+
+.second a:visited {
+  color: white;
+}
+
+.rights {
+  font-size: 14px;
+  margin-top: 10px;
+  text-align: center;
+}
+
+.purple {
+  color: #f94144;
+}
+
+.gray {
+  color: gray;-
+}

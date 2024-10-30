@@ -1,0 +1,245 @@
+* {
+  font-family: "Poppins", sans-serif;
+  padding: 0;
+  margin: 0;
+  /* border: 2px solid black; */
+}
+body {
+  background-color: #f7fff7;
+  color: black;
+  /* add margin, padding, max-width */
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  background-color: #333d29;
+  height: 80px;
+}
+
+nav ul {
+  display: flex;
+  justify-content: center;
+}
+
+nav ul li {
+  list-style: none;
+  margin: 0 23px;
+  /* adjust height of the nav bar */
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: white;
+  /* transition  */
+  transition: color 0.3s ease;
+}
+nav ul li a:hover {
+  color: #f94144;
+  font-size: 1.01rem;
+}
+
+.left {
+  font-size: 1.3rem;
+  margin: 30px 0;
+  color: white;
+}
+
+/*main*/
+
+.firstsection {
+  display: flex;
+  justify-content: space-around;
+  margin: 90px 0;
+  align-items: center;
+}
+
+.firstsection > div {
+  /* '>' indicates direct div only acquires the width, else text is not aligned*/
+  width: 30%;
+}
+
+.secondsection {
+  margin: auto;
+  max-width: 80%;
+  height: 80vh;
+}
+
+hr {
+  /* background: #8ac926; */
+  height: 2px;
+  margin: 45px 110px;
+  border-top: 2px dashed #8ac926;
+  position: relative;
+}
+
+.secondsection {
+  background-color: #f7fff7;
+}
+
+.secondsection hr {
+  border-top: 2px solid #8ac926;
+}
+
+.secondsection .box {
+  background-color: #ffffff;
+  height: 2px;
+  margin: 56px 0;
+  width: 77vw;
+  display: flex;
+}
+
+.secondsection .vertical {
+  height: 90px;
+  width: 1px;
+  background-color: #f0f0f0;
+  margin: 0 140px;
+}
+
+.secondsection .image-top {
+  width: 23px;
+  position: relative;
+  top: -40px;
+  left: -10px;
+  background-color: #f7fff7;
+  padding: 5px;
+  border-radius: 50%;
+}
+
+.ver-post {
+  position: relative;
+  top: 70px;
+  width: 150px;
+  color: #333d29; /* deep green */
+  font-weight: bold;
+}
+
+.desc {
+  position: relative;
+  top: 80px;
+  width: 140px;
+  font-size: 10px;
+  color: #808080; /* gray */
+}
+
+.year {
+  position: relative;
+  top: 70px;
+  width: 150px;
+  color: #f94144; /* vibrant orange-red */
+  font-weight: bold;
+}
+
+.secondsection hr {
+  font-size: 2rem;
+}
+
+.secondsection .box {
+  background-color: #8ac926;
+  height: 2px;
+  margin: 56px 0;
+  width: 80vw;
+  display: flex;
+}
+
+.secondsection .vertical {
+  height: 90px;
+  width: 1px;
+  background-color: #8ac926;
+  margin: 0 140px;
+}
+
+.image-top {
+  width: 23px;
+  position: relative;
+  top: -10px;
+  left: -10px;
+}
+
+.ver-post {
+  position: relative;
+  top: 70px;
+  width: 150px;
+}
+
+.desc {
+  position: relative;
+  top: 80px;
+  width: 140px;
+  font-size: 10px;
+  color: gray;
+}
+.purple {
+  color: #f94144;
+}
+.gray {
+  color: gray;
+}
+/* generally we define utility , side specific and global classes in different files. */
+
+/* #element {
+    color: rgb(153, 153, 253);
+}  */
+
+.leftsection {
+  font-size: 2rem;
+  margin: 70px 0; /*check why when this is in rightsection img is not aligned*/
+}
+.rightsection img {
+  width: 80%;
+  margin: 30px 27px;
+}
+
+footer {
+  background-color: #333d29;
+  color: white;
+  height: auto;
+  text-align: center;
+}
+.footer ul {
+  width: 100%;
+  display: flex;
+  margin: 0 auto;
+  padding: 0;
+  justify-content: space-evenly;
+  list-style: none;
+  text-align: center;
+}
+
+.footer li {
+  margin: 0 20px; /* Add some space between links */
+}
+
+footer > div {
+  width: 100%;
+  align-items: center;
+}
+.second a {
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+.second a:hover {
+  color: #f94144;
+  font-size: 1.01rem;
+}
+.second a:visited {
+  color: white;
+}
+
+.second > ul {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  text-decoration: none;
+}
+
+.rights {
+  font-size: 14px;
+  margin-top: 10px;
+  text-align: center;
+}
